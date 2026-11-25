@@ -34,5 +34,3 @@ python manage.py test
 3. config/config_product.py define A (ambas banderas False) y B (ambas True). settings.py lee PRODUCT_VARIANT. Reiniciar servidor tras cambios.
 4. Patrón: modularización por componentes y feature toggles; plantilla base usa herencia de plantillas. Para reutilizar una app, copiarla, registrar sus dependencias, adaptar interfaces y ejecutar pruebas.
 
-## Evidencias a obtener realmente
-Capturar dashboard A, dashboard B, PDF descargado, alertas, config_product.py y ejecución de pruebas. Elaborar manual PDF y diagramas; cada integrante debe escribir su conclusión y recomendación propias.
