@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="login panel"><p class="eyebrow">ACCESO AL SISTEMA</p><h1>Bienvenido</h1><p>Inicia sesión para gestionar el inventario.</p><form method="post">{% csrf_token %}{{ form.as_p }}<button>Ingresar</button></form></section>{% endblock %}

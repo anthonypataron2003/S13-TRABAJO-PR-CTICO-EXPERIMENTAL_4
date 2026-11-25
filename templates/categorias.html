@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<h1>Categorías</h1><section class="panel"><form method="post">{% csrf_token %}{{ form.as_p }}<button>Crear categoría</button></form><h2>Categorías existentes</h2>{% for c in categorias %}<p>{{ c.nombre }}</p>{% empty %}<p>Sin categorías.</p>{% endfor %}</section>{% endblock %}
